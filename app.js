@@ -114,6 +114,12 @@ class hisoblash extends worker {
     this.yillik = yillik;
   }
 }
-let worker_1 = new hisoblash("Aziz", 10000);
-let worker_y =;
-console.log(worker_y);
+let worker_oylik_ishhaqqi = +prompt("oylik ish haqqingizni kiriting");
+let hisob_1 = worker_oylik_ishhaqqi * 12;
+console.log(hisob_1 + " yillik ish haqqingiz");
+// class maneger extends worker {
+//   constructor(ism, ish_haqqi, yillik) {
+//     super(ism, ish_haqqi, yillik);
+//     this.yillik = yillik;
+//   }
+// }
